@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Nails Giss - Manicura y Belleza en Neuquén, Argentina</title>
+    <meta name="title" content="Nails Giss - Manicura y Belleza en Neuquén, Argentina">
+    <meta name="description" content="Especialista en manos, pies y belleza. Extensión Soft Gel, lifting de pestañas y perfilado de cejas. Reservá tu turno en Neuquén, Argentina.">
+    <meta name="keywords" content="manicura, pedicura, uñas, nail art, Neuquén, Argentina, extensión soft gel, semipermanente, lifting de pestañas, perfilado de cejas">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nailsgiss.github.io/">
+    <meta property="og:title" content="Nails Giss - Manicura y Belleza en Neuquén">
+    <meta property="og:description" content="Especialista en manos, pies y belleza. Extensión Soft Gel, lifting de pestañas y perfilado de cejas.">
+    <meta property="og:image" content="https://nailsgiss.github.io/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nailsgiss.github.io/">
+    <meta property="twitter:title" content="Nails Giss - Manicura y Belleza en Neuquén">
+    <meta property="twitter:description" content="Especialista en manos, pies y belleza. Extensión Soft Gel, lifting de pestañas y perfilado de cejas.">
+    <meta property="twitter:image" content="https://nailsgiss.github.io/og-image.jpg">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Nails Giss",
+      "description": "Especialista en manos y pies. Extensión Soft Gel, lifting de pestañas y perfilado de cejas.",
+      "url": "https://nailsgiss.github.io",
+      "telephone": "+54-9-299-608-5786",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Neuquén",
+        "addressCountry": "AR"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://instagram.com/nails.giss",
+        "https://wa.me/5492996085786"
+      ]
+    }
+    </script>
+
+    <!-- Prevent dark mode flash -->
+    <script>
+      const theme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      if (theme === 'dark' || (!theme && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
